@@ -52,3 +52,6 @@
     * Add configurable routing between all apps
     * Ingest sample data into NoSQL db like elasticsearch
     * Process/Analyze data with tools like spark, pytorch, tensorflow
+
+# Platform Goals
+![Platform Goals](documentation/images/platform-architecture.png?raw=true "Platform Goals")
