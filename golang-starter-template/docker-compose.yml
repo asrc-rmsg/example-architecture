@@ -15,6 +15,7 @@ services:
         - postgresql:/var/lib/postgresql
         - postgresql_data:/var/lib/postgresql/data
         - ${PWD}/postgres.conf:/etc/postgresql/postgresql.conf
+        - ${PWD}/postgres/docker-entrypoint-initdb.d/init-db.sh:/docker-entrypoint-initdb.d/init-db.sh
   adminer:
     image: adminer
     restart: always
