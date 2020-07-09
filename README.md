@@ -1,6 +1,10 @@
 # DESCRIPTION
     This repository holds the backend training/refresher for the DHS-USCIS-SPEED PWS.
 
+# Architecture Overview
+![Design overview](documentation/images/architecture-overview.png?raw=true "Design Goal")
+
+
 # APPLICATION DOCUMENTATION
 ## [Initial Training Plan](./documentation/training_backend_team.adoc)
 ## [C# .Net Core Documentation](./documentation/netcore_backend.adoc)
